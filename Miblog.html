@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog con Tailwindcss</title>
+</head>
+<body>
+    <body class="bg-gray-50 font-sans leading-relaxed text-grey-800">
+        <header class="bg-white shadow-sm sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+                <!-- Logo -->
+                 <div class="flex items-center">
+                    <h1 class="text-3xl font-bold text-blue-600">
+                        Mi blog
+                    </h1>
+                 </div>
+                 <!-- Barra de navegacion -->
+                  <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 font-medium hover:text-blue-600 transition-colors duration-200">Inicio</a>
+                    <a href="#" class="text-gray-600 font-medium hover:text-blue-600 transition-colors duration-200">Articulos</a>
+                    <a href="#" class="text-gray-600 font-medium hover:text-blue-600 transition-colors duration-200">Categorias</a>
+                    <a href="#" class="text-gray-600 font-medium hover:text-blue-600 transition-colors duration-200">Acerca de</a>
+                  </nav>
+                  <!-- Buscador -->
+                   <div class="flex items-center space-x-2">
+                        <input type="text" placeholder="Buscar..." 
+                        class="px-4 py-2 w-64 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 
+                        focus:border-transparent">
+                        <button class="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 focus:outline-none 
+                        focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">🔎</button>
+                   </div>
+            </div>
+        </header>
+    </body>
+</body>
+</html>
